@@ -12,4 +12,7 @@ fun main() {
     repositorio.create(kakik.nome, kakik)
 
     println(repositorio.findById(kaka.nome))
+
+    println("----------------")
+    repositorio.findAll().forEach { println(it) }
 }
